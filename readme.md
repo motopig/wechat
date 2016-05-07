@@ -1,1 +1,1 @@
-一点云客
+wechat platform based on laravel 4.2
