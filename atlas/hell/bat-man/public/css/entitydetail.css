@@ -1,0 +1,74 @@
+/*附近门店详情样式*/
+.alert {
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-top: -15px;
+}
+
+.media-l {
+  margin-left:5px;
+}
+
+.alert-warning {
+  color: #c09853;
+  background-color: #fcf8e3;
+  border-color: #fbeed5;
+  width: 230px;
+}
+
+.breadcrumbs {
+  border-bottom: 1px solid #e5e5e5; 
+  background-color: #f5f5f5;
+  min-height: 40px; 
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.media-breadcrumbs {
+  margin-top: 15px;
+}
+.media-object {
+  width: 64px;
+  height: 64px;
+}
+h4 {
+  font-size: 14px;
+}
+.light-orange {
+  color: #fcac6f!important;
+}
+.light-green {
+  color: #6c9842!important;
+}
+.light-blue {
+  color: #1d6fa6!important;
+}
+.bigger-110 {
+  font-size: 110%;
+}
+.img-market {
+  padding-bottom: 10px;
+}
+.img-baidu {
+  padding-top: 10px;
+}
+.hr-middle {
+  BORDER-BOTTOM-STYLE: dotted;
+  BORDER-LEFT-STYLE: dotted;
+  BORDER-RIGHT-STYLE: dotted;
+  BORDER-TOP-STYLE: dotted;
+}
+.lbs-tag .info-box .info-btn {
+  height: 31px;
+  border-radius: 3px;
+  border: 1px solid #c1c1c1;
+  background: url(http://s1.map.bdimg.com/components/static/components/elements/lbs-map/images/btn_bg_1a54b4c.png) 0 0 repeat-x;
+  -webkit-background-size: 1px 31px;
+  box-shadow: 0 1px 1px #fefefe;
+  margin-top: 4px;
+  margin-left: 1px;
+}
+
+img, object { 
+  max-width: 100%;
+}

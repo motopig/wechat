@@ -1,0 +1,81 @@
+/*卡券信息 - no*/
+.fn-left {
+	float: left;
+}
+
+.edit-right {
+	width: 630px;
+	border: 1px solid #d3dae3;
+	background: #fbfbfb;
+	padding: 23px;
+	margin-left: 10px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.arrow-icon {
+	width: 11px;
+	height: 23px;
+	position: absolute;
+	top: 108px;
+	left: -11px;
+	background: url(../../hulk/css/2JL4RYu9Sv.png) no-repeat;
+}
+
+.edit-right p.title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 34px;
+  border-bottom: 1px solid #e6e9eb;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+.edit-right p.titles {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 34px;
+  border-bottom: 1px solid #e6e9eb;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.edit-right .control-label {
+  padding-top: 7px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.appmsg_preview_msg img {
+  width: 100px;
+}
+
+.frm_tips {
+  color: #8d8d8d;
+  font-size: 13px;
+}
+
+.card-bgcolor ul {
+  width: 140px;
+  padding: 0 5px;
+}
+
+.card-bgcolor li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.store-look {
+  margin-top: 5px;
+  margin-left: 27px;
+  display: none;
+}
+
+.cfgb {
+   margin-bottom: 0px; 
+}

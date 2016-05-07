@@ -1,0 +1,9 @@
+{
+	"title":"会员",
+	"desc":"会员管理应用",
+	"type":"base",
+	"conflict":"",
+	"depend":"",
+    "company":"ECDO",
+	"author":"hello"
+}

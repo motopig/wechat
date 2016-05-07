@@ -1,0 +1,120 @@
+.qrcode_portfolio_photo {
+	margin-top:-30px;
+}
+
+.qrcode_img {
+	height:80px;
+}
+
+.firefox-input-btn {
+	/*border-radius:500px;*/
+	border-top-left-radius:2px;
+	border-bottom-left-radius:2px;
+	height:45px;
+	margin-left:276px;
+	margin-top:-45px;
+	float:right;
+}
+
+.firefox-input-btn-sm-4 {
+border-radius:0px;
+height: 34px;
+margin-top: -34px;
+float: right;
+}
+
+.code-input {
+	width:40%;
+}
+
+.code-span {
+	width:30%;
+	opacity:0.5;
+	margin-left:150px;
+	font-weight:bold;
+	font-size:18px;
+	font-style:italic;
+	text-decoration:line-through;
+	cursor:pointer;
+	-webkit-mask:-webkit-gradient(linear,0% 0%,0% 100%,from(rgba(222,187,71,0.8)),to(rgba(36,142,36,0.2)));
+}
+.help-block{
+    color:#f84040;
+}
+.radio-checks {
+	margin-left:10px;
+}
+
+.radio-checks {
+	margin-left:10px;
+}
+
+.fa-sort-p {
+	margin-left:5px;
+}
+
+.hr-middle {
+  BORDER-BOTTOM-STYLE: dotted;
+  BORDER-LEFT-STYLE: dotted;
+  BORDER-RIGHT-STYLE: dotted;
+  BORDER-TOP-STYLE: dotted;
+}
+
+
+/*order*/
+.order-plans{
+    color:#000;
+}
+.order-plans .btn{
+    padding:10px 20px;
+}
+.order-plans .plan h5{
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 10px;
+    background:#f7f7f9;
+    border-bottom:1px solid #dbe2e7;
+    box-shadow:0px 1px 3px 0px rgba(200,200,200,0.4);
+    color:#000;
+}
+.order-plans .plan p.price{
+    color:#f05959;
+}
+.order-plans .plan ul{
+    list-style:none;
+    margin:0;
+    padding:10px 0px 0px 0px;
+}
+.order-plans .plan ul li{
+    text-align:center;
+    padding:2px 0px;
+    color:#333;
+}
+
+.order_shop .btn-default:hover,.order-plans .btn-default:focus{
+    background:#f5f5f7;
+    border-color:#c2ced6;
+}
+.order_shop .btn-default.active{
+    box-shadow: 0 1px 1px rgba(90,90,90,0.1) inset;
+    background:rgba(167,240,190,0.15);
+    border-color:#1ab667;
+}
+.order-plans .btn-default.active h5{
+    background:#f7f7f9;
+    color:#000;
+    border-bottom:1px solid #dbe2e7;
+}
+
+.order_shop span.order_info{
+    font-size:14px;
+    color:#999;
+    font-weight:normal;
+}
+
+ul.order_info{
+    margin:0;
+    padding:0;
+    list-style-position: inside;
+}

@@ -1,0 +1,118 @@
+/**
+ * 微信自动回复样式
+ *
+ * @category yunke
+ * @package atlas\hell\hulk\public\css
+ * @author no<no>
+ * @copyright © ECDO, Inc. All rights reserved.
+ */
+
+.rule-list-item:hover {
+  border: 1px solid #cbd5dd;
+}
+
+.rule-list-item {
+  clear: both;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #666;
+  position: relative;
+  margin:0px 0px 20px;
+  border: 1px solid #f5f5f5;
+}
+
+.rule-list-item table {
+  margin: 17px 35px;
+}
+
+.rule-list-item table td:first-child {
+  width: 5em;
+  text-align: right;
+}
+
+.rule-list-item table td {
+  padding: 10px 0;
+  line-height: 130%;
+}
+
+.rule-list-item .keyword-list li:hover {
+  border-color: #387fd4;
+  background: #fff url(2yMZ3oDwCF.png) right bottom no-repeat;
+}
+
+.rule-list-item .keyword-list li {
+  border: 1px solid #a3bad7;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #fafcff;
+  margin: 3px;
+  color: #666;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.rule-list-item .keyword-list li.active {
+  border-color: #387fd4;
+  background: #387fd4 url(2yMZ3oDwCF.png) right 7px no-repeat;
+  color: #fff;
+}
+
+.keyword-tip {
+  display: none;
+  color: #fff;
+  padding: 6px 10px;
+  background-color: #555;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rule-list-item .rule-option {
+  position: absolute;
+  right: 25px;
+  top: 27px;
+}
+
+.rule-list-item .rule-option span:first-child {
+  border-right: 1px solid #999;
+}
+
+.rule-list-item .rule-option span {
+  padding: 0 15px;
+  cursor: pointer;
+  color: #08c;
+}
+
+.rule-list-item .keyword-list {
+	margin-left: -40px;
+	margin-top: 0;
+  margin-bottom: 0;
+}
+
+.keyword-container {
+  border: 1px solid #cbd5dd;
+  padding: 5px;
+  /*margin-left: 204px;*/
+  margin-left: 15px;
+  width: 563px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.keyword-container span {
+  line-height: 20px;
+  padding-left: 6px;
+  word-wrap: break-word;
+  cursor: pointer;
+  color: #08c;
+}
+
+.keyword-container span:hover {
+  line-height: 20px;
+  padding-left: 6px;
+  word-wrap: break-word;
+  cursor: pointer;
+  color: #08c;
+  text-decoration:line-through;
+}

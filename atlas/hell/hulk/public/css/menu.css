@@ -1,0 +1,842 @@
+
+
+.section-content {
+    padding: 0px 40px 40px;
+    width: 1200px;
+    background: #fff;
+    min-height: 640px;
+    height: 1200px;
+}
+.fn-information {
+    color: #999999;
+    position: absolute;
+    margin: 20px 0 0 90px;
+    font-size: 12px;
+}
+h1.fn-title {
+    line-height: 46px;
+    font-size: 20px;
+    color: #666;
+    border-bottom: solid 2px #e1e1e1;
+    margin-bottom: 20px;
+}
+.qualityTesting-tips-box {
+    border: 1px solid #E6E394;
+    background-color: #FFFF9F;
+    margin-bottom: 20px;
+    padding: 20px 40px 20px 90px;
+    position: relative;
+}
+#menuContainer {
+    width: 300px;
+    min-height: 575px;
+    background: #f8f8f8;
+}
+.fn-left {
+    float: left;
+}
+.menu-title {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 12px 0 12px;
+    background: #e4e7ec;
+}
+#menuSortBtn, .saveNewName, .saveEditName, .list-item .notActive, .list-item .edit .rename, .list-item .edit .del, .ui-sortable .list-item .sort-icon, .actionContainer .left-point, .noActionContainer .left-point, .actionContainer .selectInput, .actionContainer.show-up .left-point, .noActionContainer.show-up .left-point {
+    background: url(../images/icon.png) no-repeat;
+}
+#menuSortBtn {
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    background-position: 0 -98px;
+    padding: 0 0 0 20px;
+    margin: 14px 0 0 0;
+    color: #337ab7;
+}
+.menu-fn-right {
+    float: right;
+}
+.sortControl {
+    position: relative;
+    height: 28px;
+    margin-top: 10px;
+}
+.fn-hide {
+    display: none;
+}
+.sortControl a {
+    text-decoration: none;
+}
+.btn-small {
+    line-height: 26px;
+}
+.btn-orange {
+    color: #fff;
+    border: 1px solid #f15834;
+    background: #f15834!important;
+}
+.btn-small, .ui-dialog .ui-dialog-confirm .ui-dialog-button-orange {
+    display: inline-block;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 18px;
+    cursor: pointer;
+    outline: 0;
+    height: auto;
+    vertical-align: top;
+}
+.btn-gray {
+    border: 1px solid #d0d0d0;
+    color: #666!important;
+    background: #eef0f3;
+}
+#menuList {
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+#menuList .new-menu-wrap {
+    margin: 13px 0px;
+}
+a.new-menu {
+    font-size: 14px;
+    padding-left: 4px;
+    height: 27px;
+    line-height: 27px;
+    color: #337ab7;
+}
+.saveContainer {
+    padding: 20px;
+    clear: both;
+    zoom: 1;
+    float: left;
+    width: 260px;
+}
+.saveContainer .btn {
+    margin-left: 18px;
+}
+.saveContainer .saveTip {
+    color: #999;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.saveContainer .warn .iconfont {
+    color: #f96;
+    font-size: 16px;
+}
+.iconfont {
+    /*font-family: "rei";*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*cursor: default;*/
+    /*-webkit-font-smoothing: antialiased;*/
+}
+.saveContainer .saveTip span {
+    display: inline-block;
+    width: 236px;
+    vertical-align: top;
+    margin-left: 5px;
+}
+#previewContainer {
+    float: right;
+    right: 100px;
+    width: 270px;
+    height: 575px;
+    position: relative;
+}
+#previewContainer, .alipay-xbox-content .exContainer {
+    background: url(../images/iphone.png) no-repeat;
+}
+#previewShowBox {
+    position: absolute;
+    z-index: 1;
+    top: 129px;
+    left: 22px;
+    width: 228px;
+    height: 328px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#previewBtnLists {
+    position: absolute;
+    z-index: 9;
+    top: 459px;
+    left: 22px;
+    width: 227px;
+    height: 30px;
+    background: #fff;
+}
+#previewBtnLists .preview-items {
+    width: 60px;
+    height: 29px;
+    position: relative;
+    float: left;
+}
+
+#previewBtnLists .preview-items a.menu {
+     height: 29px;
+     line-height: 29px;
+     font-size: 12px;
+     border: solid #efefef;
+     border-width: 0 0px 0 1px;
+     overflow: hidden;
+}
+#previewBtnLists .preview-items .dialogPreview {
+    background-position: center -36px;
+}
+
+#previewBtnLists .preview-items a {
+    width: auto;
+    color: #333;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+#previewContainer .dialogPreview, #previewBtnLists .preview-items .hasSubMenu, #previewBtnLists .dialogContainer, #previewBtnLists .preview-items .preview-sub-items .btm-point {
+    background: url(../images/icon2.png) no-repeat;
+}
+#previewBtnLists .dialogContainer {
+    background-position: center -120px;
+    height: 30px;
+}
+#previewBtnLists .dialogContainer a.backMenu {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: 2px;
+}
+#previewContainer .previewBottom {
+    position: absolute;
+    bottom: -18px;
+    width: 270px;
+    text-align: center;
+    color: #cccccc;
+    font-size: 16px;
+}
+#previewContainer .previewTitle {
+    position: absolute;
+    top: 101px;
+    left: 55px;
+    width: 155px;
+    height: 24px;
+    line-height: 24px;
+    color: #ccc;
+    z-index: 2;
+    text-align: center;
+    overflow: hidden;
+}
+.editing {
+    line-height: 17px;
+    width: 180px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.newNameAction {
+    cursor: pointer;
+}
+.saveNewName, .saveEditName {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background-position: 0 -78px;
+    margin-left: -22px;
+    margin-top: 4px;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+.cancelEditName, .cancelNewName {
+    margin-left: 8px;
+    color: #337ab7;
+}
+.menu-new-action {
+    display: none;
+}
+.list-item .edit, .list-item .sort-icon {
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    display: none;
+}
+.list-parent {
+    font-size: 14px;
+    color: #666666;
+    height: 27px;
+    line-height: 27px;
+}
+.list-item{ position: relative;color:#666; height:27px; line-height:27px; }
+.list-parent{font-size: 14px;color:#666666;height:27px;line-height:27px; }
+.list-item .notActive{position:absolute; width:5px;height:5px;background-position:-6px -125px;margin-left:6px;top:12px;}
+.list-item .edit, .list-item .sort-icon{position: absolute;right: 5px;top: 0px;/* display: none; */}
+.list-item .modifyNameAction, .newNameAction{cursor: pointer;}
+
+.list-item.hover .edit{display: block;top:3px; }
+.list-item.hover .edit.fn-hidden{display: none;}
+.list-item.fn-worn{background:#ffd2d2;}
+.list-item .edit a{width:25px;height:20px;text-indent: -9999em;  overflow: hidden;  float: left;padding-left: 3px;   }
+.list-item .edit .rename{background-position:  2px -36px;cursor: pointer;}
+.list-item .edit .del{ background-position:2px -58px;cursor: pointer;}
+.list-item span.name{display: block;width: 200px; }
+.list-item.hover span.name{cursor: pointer;}
+.list-item .name.noAction{color: #999;}
+.list-item .editing.mod{width:190px;margin:0px;}
+.list-item .edit .rename:hover, .list-item .edit .del:hover, .saveEditName:hover, .saveNewName:hover,.saveEditName.ac, .saveNewName.ac, #menuSortBtn:hover, .list-item.hover .sort-icon{
+    background-image: url(../images/iconhover.png);
+}
+.list-item.hover, .list-item.setting{background: #d6dce7;}
+
+.menu-list {
+    border: solid #e1e7ee;
+    border-width: 0 0 1px 0;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.menu-list span.name {
+    padding-left: 13px;
+}
+#menuList .menu-list .subMenu-list {
+    background: url(../images/level.png) 18px bottom no-repeat;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+#menuList .menu-list .subMenu-list .list-item {
+    margin: 0px 0 8px 0px;
+}
+#menuList .menu-list .subMenu-list .new-subMenu-wrap {
+    margin-bottom: 8px;
+}
+.menu-new-sub-action {
+    display: none;
+}
+.list-sub span.name {
+    padding-left: 5px;
+}
+.noActionContainer {
+    width: 371px;
+    height: 157px;
+    position: absolute;
+    top: 0;
+    left: 290px;
+    border: solid 1px #ddd;
+    background: #fff;
+    padding: 10px;
+    z-index: 10;
+}
+.noActionContainer .msg {
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.noActionContainer .msg i, .noActionContainer .msg span {
+    vertical-align: middle;
+}
+.noActionContainer .msg i {
+    color: #64b4e4;
+    margin-right: 8px;
+    font-size: 33px;
+}
+.noActionContainer .msg span {
+    color: #666666;
+}
+.noActionContainer .msg i, .noActionContainer .msg span {
+    vertical-align: middle;
+}
+.noActionContainer .btn-wrap {
+    position: absolute;
+    bottom: 28px;
+    left: 152px;
+    width: auto;
+}
+.noActionContainer .cancelBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 24px;
+    height: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #999999;
+    cursor: pointer;
+}
+
+.noActionContainer .left-point {
+    width: 10px;
+    height: 22px;
+    background-position: 0px -154px;
+    position: absolute;
+    top: 0px;
+    left: -10px;
+}
+.list-item.list-parent .noActionContainer .left-point {
+    background-position: 0px -154px;
+}
+.ui-sortable .list-item span.name {
+    cursor: move;
+    width: 100%;
+}
+.ui-sortable .ui-sortable-helper{
+    background-color: #fff;
+}
+.ui-sortable .new-menu {
+    display: none;
+}
+.ui-sortable .list-item .sort-icon {
+    display: block;
+    width: 12px;
+    height: 12px;
+    top: 8px;
+    background-position: -4px -141px;
+    cursor: move;
+}
+#menuList .menu-list .list-item.list-parent .actionContainer {
+    left: 290px;
+}
+.actionContainer {
+    width: 453px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    border: solid 1px #ddd;
+    background: #fff;
+    padding: 0 10px;
+    z-index: 10;
+    margin-bottom: 30px;
+}
+.actionContainer .title {
+    font-size: 14px;
+    color: #333;
+}
+.actionContainer .select-box {
+    width: 180px;
+    overflow: hidden;
+    margin-left: 5px;
+}
+.actionContainer .selectInput {
+    width: 180px;
+    height: 33px;
+    line-height: 36px;
+    padding-left: 10px;
+    margin-top: 12px;
+    font-size: 12px;
+    background-position: 0 0px;
+    cursor: pointer;
+}
+.actionContainer .actionSelect {
+    width: 369px;
+    position: absolute;
+    border: solid 1px #ddd;
+    background: #f3f3f3;
+    z-index: 12;
+    margin-bottom: 30px;
+    padding-left: 0px;
+}
+.actionContainer .actionSelect li.deep-back {
+    background: #fff;
+}
+.actionContainer .actionSelect li {
+    padding-left: 10px;
+    list-style: none;
+}
+.actionContainer .actionSelect li.hover {
+    cursor: pointer;
+    background-color: #5588D2;
+}
+.actionContainer .actionSelect li span.typeName {
+    color: #666666;
+    font-size: 14px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+.actionContainer .actionSelect .hover span.typeName {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+.actionContainer .actionSelect li span {
+    padding-left: 30px;
+}
+.actionContainer .actionSelect li span.explain {
+    color: #999999;
+    font-size: 12px;
+    height: 20px;
+    line-height: 12px;
+}
+.actionContainer .actionSelect .hover span.explain {
+    color: #fff;
+    font-size: 12px;
+    height: 20px;
+    line-height: 12px;
+}
+.actionContainer .actionSelect span.explain {
+    display: block;
+    font-size: 10px;
+    white-space: nowrap;
+}
+.actionContainer .container-title {
+    margin: 16px 0 0px 5px;
+    padding-top: 14px;
+    border-top: solid 1px #ebebeb;
+    line-height: 14px;
+    color: #333333;
+    font-size: 14px;
+}
+.actionContainer .tplContainer {
+    color: #999;
+    font-size: 12px;
+    line-height: normal;
+}
+.actionContainer .tplContainer .container-tip {
+    margin: 0px 0 0px 5px;
+    line-height: 16px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.actionContainer .tplContainer .infoType {
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    height: 200px;
+}
+.actionContainer .tplContainer .infoType .infoUl {
+    list-style: none;
+    margin-top: 10px;
+    height: 30px;
+    border-bottom: 3px solid #eee;
+    padding-left: 10px;
+}
+.actionContainer .tplContainer .infoType .infoUl .active{
+    background-color: #ccc;
+}
+.actionContainer .tplContainer .infoType .infoUl .infoLi {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 9px 2px 9px;
+    border: 1px solid #BBB6B6;
+    margin: 0px 2.5px 0px 0px;
+    cursor: pointer;
+    color: #000;
+}
+.actionContainer .tplContainer .infoType .infoTextArea {
+    height: 160px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    margin-top: -10px;
+    resize: none;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 22px;
+    width: 430px;
+    color: #000;
+    overflow-y: auto;
+}
+.actionContainer .tplContainer .emotion-list {
+    z-index: 888;
+    border: 1px solid rgb(221, 221, 221);
+    position: absolute;
+    top: -75px;
+    width: 438px;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+}
+.actionContainer .tplContainer .emotion-list span {
+    /* height: 34px; */
+    /* width: 34px; */
+    border: 1px solid #eaeaea;
+    text-align: center;
+    /* min-height: 34px; */
+    float: left;
+    margin: 1px 2px 2px -1px;
+}
+.actionContainer .tplContainer .emotion-list a img {
+    margin-top: 4px;
+}
+.actionContainer .tplContainer .spreview {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 430px;
+    height: 160px;
+    margin-top: -170px;
+}
+
+.actionContainer .tplContainer .image_preview {
+    margin-top: 0px;
+}
+.actionContainer .tplContainer .image_preview img {
+    width: 150px;
+    height: 150px;
+}
+.actionContainer .tplContainer  .preview_voice {
+    margin: 25px 15px;
+}
+
+.left-show {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    padding: 13px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #eee;
+    position: relative;
+}
+#previewShowBox .left-show {
+    padding: 0px;
+    width: 220px;
+}
+.actionContainer .tplContainer .emoji_preview {
+    display: none;
+}
+.left-show .show-cont .first-item {
+    position: relative;
+    padding-bottom: 14px;
+}
+.left-show .show-cont li {
+    border-bottom: 1px solid #e8e8e8;
+}
+.left-show .show-cont ol, ul, li {
+    list-style: none;
+}
+.left-show .show-cont .show-item {
+    padding: 30px;
+    position: relative;
+}
+.left-show .multiMsgMode {
+    position: relative;
+}
+.left-show .show-cont .show-item .show-title {
+    font-size: 14px;
+    color: #333;
+    float: left;
+    margin-top: -18px;
+    margin-left: -23px;
+}
+.multimessage-show-title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    padding: 7px 0;
+}
+.multimessage-show-title h1 {
+    position: relative;
+    z-index: 10;
+    margin: 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+}
+.multimessage-show-title .title-mask-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.6;
+    filter: alpha(opacty=50);
+}
+.show-cont .first-item .cover-pic {
+    width: 100%;
+    height: 121px;
+    line-height: 100px;
+    font-size: 14px;
+    background: #f3f3f3;
+    text-align: center;
+}
+.show-cont .show-item .cover-pic {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: #f3f3f3;
+    text-align: center;
+    float: right;
+    margin-top: -22px;
+    margin-right: -25px;
+}
+.notSelectType .btn-wrap {
+    display: none;
+}
+.actionContainer .btn-wrap {
+    position: relative;
+    bottom: 0px;
+    left: -10px;
+    width: 450px;
+    background: #f4f4f4;
+    height: 50px;
+}
+.actionContainer .btn-wrap .saveBtn {
+    position: absolute;
+    bottom: 8px;
+    left: 13px;
+}
+.actionContainer .left-point, .noActionContainer .left-point {
+    width: 10px;
+    height: 22px;
+    background-position: 0px -154px;
+    position: absolute;
+    top: 0px;
+    left: -10px;
+}
+.actionContainer .cancelBtn, .noActionContainer .cancelBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 24px;
+    height: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #999999;
+    cursor: pointer;
+}
+.actionContainer a {
+    margin-left: 5px;
+}
+.actionContainer .actionSelect .info {
+    background: url(../images/graphic.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .link {
+    background: url(../images/link.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .promotion {
+    background: url(../images/hi.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .lp {
+    background: url(../images/lp.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .member {
+    background: url(../images/member.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .order {
+    background: url(../images/order.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .ecshop {
+    background: url(../images/shop.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .hover .info {
+    background: url(../images/graphic-hover.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .hover .link {
+    background: url(../images/link-hover.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .hover .promotion {
+    background: url(../images/hi-hover.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .hover .lp {
+    background: url(../images/lp-hover.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .hover .member {
+    background: url(../images/member-hover.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .hover .order {
+    background: url(../images/order-hover.png)  4px 10px no-repeat;
+}
+.actionContainer .actionSelect .hover .ecshop {
+    background: url(../images/shop-hover.png)  4px 10px no-repeat;
+}
+#menuList .menu-list .subMenu-list .list-item.list-sub .actionContainer {
+    left: 248px;
+    padding: 0 10px;
+}
+#menuList .menu-list .subMenu-list .list-item.list-sub .actionContainer h3.title {
+    padding-left: 5px;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+}
+.actionContainer .tplContainer .inputWrap {
+    position: relative;
+    margin-left: 5px;
+}
+.actionContainer .typeContentInput {
+    width: 330px;
+    height: 30px;
+    padding-left: 5px;
+    line-height: 30px;
+}
+.actionContainer .errorMsg {
+    visibility: hidden;
+    color: #f00;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 12px;
+}
+#previewBtnLists .preview-items .hasSubMenu {
+    background-position: center -90px;
+}
+#previewBtnLists .preview-items ul {
+    position: absolute;
+    display: none;
+    font-size: 10px;
+    left: 0px;
+    bottom: 35px;
+    width: 80px;
+    border: solid #afafaf;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 3px;
+    background: #fff;
+    list-style: none;
+    padding-left: 0px;
+}
+#previewBtnLists .preview-items ul li {
+    border-bottom: solid 1px #e9e9e9;
+}
+#previewBtnLists .preview-items a.sub-menu {
+    height: 30px;
+    line-height: 30px;
+    background: none;
+    overflow: hidden;
+    /* font-size: 7px; */
+}
+a.menu.menu-action.dialogPreview {
+    background-position: center -36px;
+}
+#previewBtnLists .preview-items a {
+    width: auto;
+    color: #333;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+#previewBtnLists .preview-items .preview-sub-items .btm-point {
+    height: 5px;
+    position: absolute;
+    margin-top: -1px;
+    width: 100%;
+    background-position: center -3px;
+    border: none;
+}
+#previewShowBox .preview_img{
+    width: 220px;
+    height: 169px;
+    margin: 10px 4px;
+}
+#previewShowBox .preview_text{
+    margin: 15px 10px;
+    
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 6px 5px;
+}
+#previewShowBox .preview_img img {
+    width: 100%;
+}
+
+#previewShowBox .preview_voice {
+    margin: 15px 5px;
+    width: 100px;
+}

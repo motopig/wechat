@@ -1,0 +1,64 @@
+{
+	"menu":{
+		"m_member": {
+			"id": "m_member",
+			"title":"会员",
+			"icon":"icon-users",
+			"url":"###",
+			"perm_id":"",
+			"sequence":104,
+			"priority":100,
+			"pid":""
+		},
+		"m_member_index": {
+			"id": "m_member_index",
+			"title":"首页",
+			"icon":"",
+			"url":"angel/member/index",
+			"perm_id":"",
+			"sequence":100,
+			"priority":100,
+			"pid":"m_member"
+		},
+		"m_member_card": {
+			"id": "m_member_card",
+			"title":"会员卡",
+			"icon":"",
+			"url":"###",
+			"perm_id":"",
+			"sequence":102,
+			"priority":100,
+			"pid":"m_member"
+		},
+		"m_member_group": {
+			"id": "m_member_group",
+			"title":"分组",
+			"icon":"",
+			"url":"###",
+			"perm_id":"",
+			"sequence":103,
+			"priority":100,
+			"pid":"m_member"
+		},
+		"m_member_smart": {
+			"id": "m_member_smart",
+			"title":"智能分组",
+			"icon":"",
+			"url":"angel/member/smart",
+			"perm_id":"",
+			"sequence":104,
+			"priority":100,
+			"pid":"m_member"
+		},
+		"m_member_sms": {
+			"id": "m_member_sms",
+			"title":"短信群发",
+			"icon":"",
+			"url":"angel/member/sms",
+			"perm_id":"",
+			"sequence":105,
+			"priority":100,
+			"pid":"m_member"
+		}
+	}
+}

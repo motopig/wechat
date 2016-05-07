@@ -1,0 +1,114 @@
+{
+	"menu":{
+		"m_wechat": {
+			"id": "m_wechat",
+			"title":"微信",
+			"icon":"fa fa-wechat",
+			"url":"###",
+			"perm_id":"",
+			"sequence":10,
+			"priority":100,
+			"pid":""
+		},
+		"m_wc_message": {
+			"id": "m_wc_message",
+			"title":"即时消息",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/wechat/message",
+			"perm_id":"",
+			"sequence":1,
+			"priority":1,
+			"pid":"m_wechat"
+		},
+		"m_wc_autoreply": {
+			"id": "m_wc_autoreply",
+			"title":"自动回复",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/wechat/autoReply",
+			"perm_id":"",
+			"sequence":2,
+			"priority":2,
+			"pid":"m_wechat"
+		},
+		"m_wc_meterial": {
+			"id": "m_wc_meterial",
+			"title":"图文素材",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/wechat/graphics",
+			"perm_id":"",
+			"sequence":3,
+			"priority":3,
+			"pid":"m_wechat"
+		},
+		"m_wc_member": {
+			"id": "m_wc_member",
+			"title":"粉丝用户",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/wechat/member",
+			"perm_id":"",
+			"sequence":7,
+			"priority":7,
+			"pid":"m_wechat"
+		},
+		"m_wc_group": {
+			"id": "m_wc_group",
+			"title":"用户分组",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/wechat/group",
+			"perm_id":"",
+			"sequence":8,
+			"priority":8,
+			"pid":"m_wechat"
+		},
+		"m_wechat_market": {
+			"id": "m_wechat_market",
+			"title":"微信营销",
+			"icon":"fa fa-dot-circle-o",
+			"url":"#",
+			"perm_id":"",
+			"sequence":11,
+			"priority":4,
+			"pid":""
+		},
+		"m_wc_code": {
+			"id": "m_wc_code",
+			"title":"推广二维码",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/wechat/code",
+			"perm_id":"",
+			"sequence":4,
+			"priority":4,
+			"pid":"m_wechat_market"
+		},
+		"m_wc_shakearound": {
+			"id": "m_wc_shakearound",
+			"title":"摇一摇周边",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/wechat/shakearound/device",
+			"perm_id":"",
+			"sequence":5,
+			"priority":5,
+			"pid":"m_wechat_market"
+		},
+		"m_wechat_setting": {
+			"id": "m_wechat_setting",
+			"title":"微信菜单",
+			"icon":"fa fa-file-text-o",
+			"url":"#",
+			"perm_id":"",
+			"sequence":12,
+			"priority":9,
+			"pid":""
+		},
+		"m_wc_menu": {
+			"id": "m_wc_menu",
+			"title":"菜单配置",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/wechat/menu",
+			"perm_id":"",
+			"sequence":9,
+			"priority":9,
+			"pid":"m_wechat_setting"
+		}
+	}
+}

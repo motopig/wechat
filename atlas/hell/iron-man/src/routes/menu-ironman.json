@@ -1,0 +1,14 @@
+{
+	"menu":{
+		"m_coupon": {
+			"id": "m_coupon",
+			"title":"卡券",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/coupons",
+			"perm_id":"",
+			"sequence":2,
+			"priority":2,
+			"pid":"m_market"
+		}
+	}
+}

@@ -1,0 +1,128 @@
+/**
+ * 门店样式
+ *
+ * @category yunke
+ * @author no<no>
+ * @copyright © ECDO, Inc. All rights reserved.
+ */
+
+.frm_title {
+  font-size: 13px;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px dotted #e7e7eb;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  font-weight: normal;
+  color: #222;
+}
+
+.frm_title .frm_title_dec {
+  color: #8d8d8d;
+  font-size: 12px;
+  margin-left: 1em;
+  font-weight: normal;
+}
+
+.line-top {
+  margin-top: 50px;
+}
+
+.prov-city-dist {
+  float:left;
+  width:13%;
+}
+
+.frm_tips {
+  color: #8d8d8d;
+  font-size: 12px;
+}
+
+.img_upload_wrp {
+  margin-top: 5px;
+  width: 582px;
+}
+
+.img_upload_wrp .img_upload_box {
+  display: inline-block;
+  width: 98px;
+  height: 98px;
+  margin: 0 10px 10px 0;
+  vertical-align: top;
+}
+
+.img_upload_wrp .img_upload_box .img_upload_box_oper {
+  display: block;
+  border: 2px dotted #d9dadc;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.img_upload_wrp .img_upload_box .icon20_common {
+  margin-top: 36px;
+}
+
+.icon20_common.add_gray {
+  background: url(base_z264f38.png) 0 -2809px no-repeat;
+}
+
+.icon20_common {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 100px;
+  overflow: hidden;
+}
+
+.img_upload_wrp .img_upload_box .img_upload_preview_box {
+  width: 98px;
+  height: 98px;
+  border: 1px solid #d9dadc;
+  position: relative;
+}
+
+.img_upload_wrp .img_upload_box {
+  display: inline-block;
+  width: 98px;
+  height: 98px;
+  margin: 0 10px 10px 0;
+  vertical-align: top;
+}
+
+.img_upload_wrp .img_upload_box.img_upload_preview_box img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.img_upload_edit_area {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  width: 11.5%;
+  height: 25px;
+  text-align: center;
+  background: rgba(229,229,229,0.9)!important;
+}
+
+.icon18_common.del_gray {
+  background: url(base_z264f38.png) 0 -4610px no-repeat;
+}
+
+.icon18_common.del_black {
+  background: url(base_z264f38.png) 0 -4637px no-repeat;
+}
+
+.icon18_common {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 100px;
+  overflow: hidden;
+}
+

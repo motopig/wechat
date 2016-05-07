@@ -1,0 +1,90 @@
+
+.logo {
+    height: 0;
+    width: 100%;
+    padding-top: 48.125%;
+    background: url("../images/logo.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center top;
+}
+
+.playground {
+    /*background-color: #0000cc;*/
+    width: 320px;
+    margin: 0 auto;
+}
+
+.playwarp {
+    position: relative;
+    width: 280px;
+    margin: 10px auto 0;
+
+}
+
+
+
+.wheel {
+    background-color: #E64101;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.sclose {
+    display: block;
+    background: url("../images/close.png") no-repeat;
+}
+
+.win {
+    display:none;
+    background: url("../images/open.png") no-repeat;
+}
+
+.loser {
+    display:none;
+    background: url("../images/loser.png") no-repeat;
+}
+
+.play {
+    background: url("../images/play.jpg") no-repeat;
+}
+
+.warp{
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+}
+.pwarp {
+    width: 150px;
+    height: 150px;
+    margin-left: 75px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+.infoul {
+    list-style: none;
+    color:#fff;
+    margin-left: -60px;
+    width: 345px;
+
+}
+.infoul li {
+    padding: 3px;
+}
+.infoul span {
+    font-weight: bold;
+}
+
+.name, .time, .des {
+    margin-left: 14px;
+}
+
+.time {
+
+}
+
+.des {
+
+}

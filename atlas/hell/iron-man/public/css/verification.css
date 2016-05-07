@@ -1,0 +1,33 @@
+/*核销员样式*/
+
+.cfgb {
+   margin-bottom: 0px; 
+}
+
+.frm_title {
+  font-size: 13px;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px dotted #e7e7eb;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  font-weight: normal;
+  color: #222;
+}
+
+.frm_title .frm_title_dec {
+  color: #8d8d8d;
+  font-size: 12px;
+  margin-left: 1em;
+  font-weight: normal;
+}
+
+.line-top {
+  margin-top: 50px;
+}
+
+.store-look {
+  margin-top: 5px;
+  margin-left: 27px;
+  display: none;
+}

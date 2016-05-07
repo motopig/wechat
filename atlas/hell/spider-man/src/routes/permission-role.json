@@ -1,0 +1,53 @@
+{
+	"group":{
+		"g_role":{
+			"id":"g_role",
+			"title":"角色管理",
+			"desc":"角色管理，用户角色关联"
+		}
+	},
+	"permission":{
+		"p_role_view":{
+			"id":"p_role_view",
+			"title":"角色查看",
+			"desc":"查看角色列表，角色明细",
+			"gid":"g_role",
+			"path":["angel/role", "angel/role/detail"]
+		},
+		"p_role_add":{
+			"id":"p_role_add",
+			"title":"角色创建",
+			"desc":"创建角色",
+			"gid":"g_role",
+			"path":["angel/role/add", "angel/role/doAdd"]
+		},
+		"p_role_edit":{
+			"id":"p_role_edit",
+			"title":"角色编辑",
+			"desc":"编辑角色",
+			"gid":"g_role",
+			"path":["angel/role/edit", "angel/role/doEdit"]
+		},
+		"p_role_del":{
+			"id":"p_role_del",
+			"title":"角色删除",
+			"desc":"删除角色",
+			"gid":"g_role",
+			"path":["angel/role/del"]
+		},
+		"p_role_user_view":{
+			"id":"p_role_user_view",
+			"title":"用户角色查看",
+			"desc":"查看用户角色列表",
+			"gid":"g_role",
+			"path":["angel/role/users"]
+		},
+		"p_role_user_edit":{
+			"id":"p_role_user_edit",
+			"title":"用户角色编辑",
+			"desc":"用户角色关联编辑",
+			"gid":"g_role",
+			"path":["angel/role/users/edit", "angel/role/users/doEdit"]
+		}
+	}
+}

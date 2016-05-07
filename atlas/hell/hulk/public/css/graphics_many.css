@@ -1,0 +1,361 @@
+/**
+ * 微信普通多图文样式
+ *
+ * @category yunke
+ * @package atlas\hell\hulk\public\css
+ * @author no<no>
+ * @copyright © ECDO, Inc. All rights reserved.
+ */
+
+/*图文素材展示 - begin*/
+.left-show {
+	width: 300px;
+	background-color: #fff;
+	border: 1px solid #e3e3e3;
+	padding: 13px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #eee;
+	position: relative;
+}
+
+.fn-left {
+	float: left;
+}
+
+.show-cont .first-item {
+	position: relative;
+	padding-bottom: 14px;
+}
+
+.show-cont .first-item {
+	position: relative;
+	padding-bottom: 14px;
+}
+
+.show-cont ol, ul, li {
+	list-style: none;
+}
+
+ul, ol .show-cont {
+	margin: 0px;
+	padding: 0;
+}
+
+.show-cont li {
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.multimessage-show-title {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 2;
+	padding: 7px 0;
+}
+
+.multimessage-show-title h1 {
+	position: relative;
+	z-index: 10;
+	margin: 0 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 14px;
+	color: #fff;
+	line-height: 20px;
+}
+
+.multimessage-show-title .title-mask-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.6;
+	filter: alpha(opacty=50);
+}
+
+.show-cont .first-item .cover-pic {
+	width: 100%;
+	height: 121px;
+	line-height: 100px;
+	font-size: 14px;
+	background: #f3f3f3;
+	text-align: center;
+}
+
+.title-break {
+	width: 80%;
+	word-break: break-word;
+	line-height: 20px!important;
+}
+
+.show-cont .show-item {
+	padding: 30px;
+	position: relative;
+}
+
+.show-cont .show-item .show-title {
+	font-size: 14px;
+	color: #333;
+	float: left;
+	margin-top: -18px;
+	margin-left: -23px;
+}
+
+.show-cont .show-item .cover-pic {
+	width: 50px;
+	height: 45px;
+	line-height: 45px;
+	background: #f3f3f3;
+	margin-top: -22px;
+	text-align: center;
+	margin-right: -25px;
+	float: right;
+	font-size: 12px;
+}
+
+.clearfix, .fn-clear {
+	zoom: 1;
+}
+
+.multiMsgMode {
+	position: relative;
+}
+
+.add-item {
+	display: block;
+	height: 50px;
+	background: #f3f3f3;
+	border: 1px dashed #cccccc;
+	margin: 10px 0px !important;
+}
+
+.add-style {
+	background: #f3f3f3 url(2jqvnJwBVF.png) no-repeat center 9px;
+}
+
+.article-left-tip {
+	text-align: center;
+}
+
+.show-cont li .J_hoverShow {
+  display: none;
+  text-align: center;
+}
+
+.show-cont .show-item .cover-pic {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  background: #f3f3f3;
+  text-align: center;
+  float: right;
+}
+
+.show-cont .show-item .show-title {
+  line-height: 29px;
+  font-size: 14px;
+  color: #333;
+  float: left;
+}
+
+.overlay-first-item {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 90%;
+  background: #f0f0f0;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  z-index: 3;
+}
+
+.overlay-article-mask {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
+  opacity: 0.9;
+  filter: alpha(opacty=90);
+}
+
+.icon-box a {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 40px 10px;
+  opacity: .5;
+  filter: alpha(opacity=50);
+  background: url(2yVc8d9wDt.png) no-repeat;
+}
+
+.icon-box-item a {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 20px 10px;
+  opacity: .5;
+  filter: alpha(opacity=50);
+  background: url(2yVc8d9wDt.png) no-repeat;
+}
+
+.icon-box-item .editor-icon {
+  background-position: 0 0;
+}
+
+.icon-box-item .del-icon {
+  background-position: 0 -18px;
+}
+
+.icon-box-item .dragsort-icon {
+  background-position: 0 -36px;
+}
+/*图文素材展示 - end*/
+
+/*多图文素材操作 - begin*/
+h1.fn-title {
+	line-height: 46px;
+	font-size: 20px;
+	color: #666;
+	border-bottom: solid 2px #e1e1e1;
+	margin-bottom: 20px;
+}
+
+.fn-title {
+	height: 46px;
+}
+
+.title-btn {
+	position: absolute;
+	right: 13px;
+	top: 7px;
+}
+
+.upload-del {
+	margin: 90px 0 0 5px;
+}
+
+.edit-btn {
+	width: 310px;
+	margin: 20px auto;
+}
+
+.edit-right {
+	width: 526px;
+	border: 1px solid #d3dae3;
+	background: #fbfbfb;
+	padding: 21px;
+	margin-left: 20px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.arrow-icon {
+	width: 11px;
+	height: 23px;
+	position: absolute;
+	top: 57px;
+	left: -11px;
+	background: url(2JL4RYu9Sv.png) no-repeat;
+}
+
+.upload-photo {
+	position: relative;
+	width: 200px;
+	height: 110px;
+	overflow: hidden;
+	line-height: 100px;
+	color: #06c;
+}
+
+.uploadify {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border: 1px dashed #ccc;
+	width: auto !important;
+	height: 98px; 
+	width: 198px;
+}
+
+.uploadify-no {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: auto !important;
+	height: 98px; 
+	width: 198px;
+}
+
+.note-word {
+	color: #999;
+	font-size: 12px;
+	margin: 3px 0 12px 0;
+}
+
+.uploadify-button-text {
+	display: block;
+	text-align: center;
+	cursor: pointer;
+}
+
+.transfers-box {
+	margin-top: 10px;
+	padding: 20px 30px 30px;
+	border: 1px solid #d4d4d4;
+	position: relative;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-bottom-right-radius: 4px;
+	-moz-border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.fn-clear {
+	zoom: 1;
+}
+
+.sortable-border {
+	border: 1px dashed #cccccc;
+}
+
+.avator-upload-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.avator-upload-mask .avator-upload-mask-overlay {
+  position: absolute;
+  width: 100%;
+  height: 110px;
+  background: #000000;
+  opacity: 0.7;
+}
+
+.avator-upload-mask .avator-upload-mask-title {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 111px;
+  font-size: 16px;
+  display: block;
+  color: #ffffff !important;
+}
+/*多图文素材操作 - end*/

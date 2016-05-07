@@ -1,0 +1,219 @@
+{
+	"menu":{
+		"m_appCenter" : {
+			"id": "m_appCenter",
+			"title":"应用中心",
+			"icon":"icon-grid",
+			"url":"angel/appCenter",
+			"perm_id":"p_ac_view",
+			"sequence":200,
+			"priority":200,
+			"pid":""
+		},
+		"m_shop_auth" : {
+			"id": "m_shop_auth",
+			"title":"角色权限",
+			"icon":"fa fa-user",
+			"url":"###",
+			"perm_id":"",
+			"sequence":101,
+			"priority":101,
+			"pid":""
+		},
+		"m_shop" : {
+			"id": "m_shop",
+			"title":"基本设置",
+			"icon":"fa fa-cube",
+			"url":"###",
+			"perm_id":"",
+			"sequence":101,
+			"priority":101,
+			"pid":""
+		},
+		"m_shop_file" : {
+			"id": "m_shop_file",
+			"title":"文件",
+			"icon":"fa fa-file",
+			"url":"#",
+			"perm_id":"",
+			"sequence":1,
+			"priority":1,
+			"pid":""
+		},
+		"m_shop_file_list" : {
+			"id": "m_shop_file_list",
+			"title":"文件列表",
+			"icon":"",
+			"url":"angel/store/image",
+			"perm_id":"",
+			"sequence":1,
+			"priority":1,
+			"pid":"m_shop_file"
+		},
+		"m_u_role" : {
+			"id": "m_u_role",
+			"title":"客服角色",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/role",
+			"perm_id":"p_role_view",
+			"sequence":4,
+			"priority":4,
+			"pid":"m_shop_auth"
+		},
+		"m_ur_relation" : {
+			"id": "m_ur_relation",
+			"title":"客服列表",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/role/users",
+			"perm_id":"p_role_user_view",
+			"sequence":5,
+			"priority":5,
+			"pid":"m_shop_auth"
+		},
+		"m_shop_config" : {
+			"id": "m_shop_config",
+			"title":"云号信息",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/towerConfig",
+			"perm_id":"",
+			"sequence":199,
+			"priority":199,
+			"pid":"m_shop"
+		},
+		"m_shop_wechat" : {
+			"id": "m_shop_config",
+			"title":"微信配置",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/wechat/config",
+			"perm_id":"",
+			"sequence":199,
+			"priority":199,
+			"pid":"m_shop"
+		},
+		"m_account" : {
+			"id": "m_account",
+			"title":"账户信息",
+			"icon":"fa fa-cog",
+			"url":"#",
+			"perm_id":"",
+			"sequence":10,
+			"priority":199,
+			"pid":""
+		},
+		"m_account_edit" : {
+			"id": "m_account_edit",
+			"title":"编辑资料",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/account/edit",
+			"perm_id":"",
+			"sequence":10,
+			"priority":199,
+			"pid":"m_account"
+		},
+        "m_order":{
+			"id": "m_order",
+			"title":"我的账单",
+			"icon":"fa fa-credit-card",
+			"url":"#",
+			"perm_id":"",
+			"sequence":100,
+			"priority":199,
+			"pid":""
+        },
+        "m_order_index":{
+			"id": "m_order_index",
+			"title":"账单列表",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/order/index",
+			"perm_id":"",
+			"sequence":100,
+			"priority":199,
+			"pid":"m_order"
+        },
+		"m_yunke": {
+			"id": "m_yunke",
+			"title":"快速入口",
+			"icon":"fa fa-play",
+			"url":"#",
+			"perm_id":"",
+			"sequence":100,
+			"priority":3,
+			"pid":""
+		},
+		"m_wifi": {
+			"id": "m_wifi",
+			"title":"微信Wi-Fi",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/iot/wifi",
+			"perm_id":"",
+			"sequence":100,
+			"priority":3,
+			"pid":"m_yunke"
+		},
+		"m_zbyao": {
+			"id": "m_zbyao",
+			"title":"周边摇一摇",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/wechat/shakearound/device",
+			"perm_id":"",
+			"sequence":101,
+			"priority":3,
+			"pid":"m_yunke"
+        },
+		"m_help": {
+			"id": "m_help",
+			"title":"管理云号",
+			"icon":"fa fa-paper-plane",
+			"url":"#",
+			"perm_id":"",
+			"sequence":100,
+			"priority":3,
+			"pid":""
+		},
+		"m_help_new2": {
+			"id": "m_help_new2",
+			"title":"帮助中心",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"help",
+            "target":"_blank",
+			"perm_id":"",
+			"sequence":101,
+			"priority":3,
+			"pid":"m_help"
+		},
+		"m_help_new": {
+			"id": "m_help_new",
+			"title":"基本设置",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"help",
+            "target":"_blank",
+			"perm_id":"",
+			"sequence":102,
+			"priority":3,
+			"pid":"m_help"
+		},
+		"m_help_new3": {
+			"id": "m_help_new3",
+			"title":"微信手册",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"help",
+            "target":"_blank",
+			"perm_id":"",
+			"sequence":103,
+			"priority":3,
+			"pid":"m_help"
+		},
+		"m_help_new4": {
+			"id": "m_help_new4",
+			"title":"免费领硬件",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"help",
+            "target":"_blank",
+            "class":"hot",
+			"perm_id":"",
+			"sequence":104,
+			"priority":3,
+			"pid":"m_help"
+		}
+	}
+}

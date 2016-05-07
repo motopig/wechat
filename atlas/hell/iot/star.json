@@ -1,0 +1,9 @@
+{
+	"title":"智能硬件",
+	"desc":"智能硬件管理应用",
+	"type":"base",
+	"conflict":"",
+	"depend":"",
+    "company":"ECDO",
+	"author":"hello"
+}

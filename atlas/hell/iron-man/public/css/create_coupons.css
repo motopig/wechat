@@ -1,0 +1,258 @@
+/*创建卡券 - no*/
+.edit-btn {
+	width: 310px;
+	margin: 20px auto;
+}
+
+.media_preview_area {
+  float: left;
+  width: 320px;
+  margin-right: 16px;
+}
+
+.media_preview_area .msg_title {
+  text-align: center;
+  height: 62px;
+  line-height: 85px;
+  font-size: 17px;
+  background-color: #cfd1d8;
+  color: #fff;
+  background: url("card_control_z269c10.png") 0 -104px no-repeat;
+}
+
+.media_preview_area .msg_card_inner {
+  padding-bottom: 120px;
+  background-color: #f4f5f9;
+}
+
+.msg_card_inner {
+  overflow: hidden;
+  border: 1px solid #e7e7eb;
+}
+
+.msg_card_section {
+  position: relative;
+  background-color: #fff;
+}
+
+.msg_card_section.shop {
+  margin-top: -10px;
+  padding: 0;
+  border-bottom: 1px solid #e7e7ea;
+  position: relative;
+}
+
+.msg_card_section.shop .shop_panel {
+  padding: 21px 12px 12px;
+  color: #fff;
+  background-color: #f4f5f9;
+  height: 175px;
+}
+
+.logo_area {
+  margin-bottom: 7px;
+  line-height: 42px;
+  color: #FFF;
+  color: rgba(255,255,255,0.9);
+}
+
+.msg_card .logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  -moz-border-radius: inherit;
+  -webkit-border-radius: inherit;
+}
+
+.msg_card .logo {
+  display: block;
+  width: 38px;
+  height: 38px;
+  padding-top: 0;
+  margin-right: 7px;
+  border-radius: 22px;
+  -moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+  border: 1px solid #d3d3d3;
+}
+
+.l {
+  float: left;
+}
+
+.msg_card_section.shop .deco {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: url(card_tpl_deco25676a.png) repeat-x;
+}
+
+.msg_card_section.dispose {
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #e7e7eb;
+}
+
+.unset {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 15px;
+}
+
+.msg_card_section .msg_card_mask {
+  display: none;
+}
+
+.shop_wepay {
+  margin: 15px 0;
+}
+
+.list {
+  border-bottom: 1px solid #e7e7eb;
+  border-top: 1px solid #e7e7eb;
+}
+
+ul, ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.list li {
+  padding-left: 15px;
+}
+
+.list li .li_panel {
+  display: block;
+  padding: 11px 30px 5px 0;
+  border-bottom: 1px solid #e7e7eb;
+}
+
+.list li .li_panel .ic {
+  position: absolute;
+  top: 13px;
+  right: 5px;
+  width: 16px;
+  height: 15px;
+  background: url(card_control_z269c10.png) 0 -441px no-repeat;
+}
+
+.list li.last_li .li_panel {
+  border-bottom: 0;
+}
+
+.list li .edit_oper {
+  display: inline-block;
+  padding: 11px;
+}
+
+.icon18_common.edit_gray {
+  background: url(base_z264f38.png) 0 -5310px no-repeat;
+}
+
+.icon18_common.edit_black {
+  background: url(base_z264f38.png) 0 -5338px no-repeat;
+}
+
+.icon18_common {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 100px;
+  overflow: hidden;
+}
+
+.msg_card_section:hover .msg_card_mask {
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: rgba(229,229,229,0.85);
+}
+
+.card-bgcolor-show {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  border-radius: 2px;
+  margin-right: 16px;
+}
+
+.msg_card_section.shop .tick_msg {
+  text-align: center;
+  margin-bottom: 6px;
+  color: #fff;
+  color: rgba(255,255,255,0.6);
+}
+
+.msg_card_section.shop .tick_msg b {
+  font-weight: normal;
+  font-size: 24px;
+  color: #fff;
+}
+
+.msg_card_section.shop .tick_msg {
+  text-align: center;
+  margin-bottom: 6px;
+  color: #fff;
+  color: rgba(255,255,255,0.6);
+}
+
+.sn_area {
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+}
+
+.barcode_area .barcode {
+  width: 264px;
+  height: 71px;
+  margin: 0 auto 0;
+  background: url(card_control_z269c10.png) 0 -176px no-repeat;
+}
+
+.barcode_area .code_num {
+  font-size: 15px;
+  text-align: center;
+}
+
+.qrcode_area .qrcode {
+  width: 174px;
+  height: 174px;
+  margin: 0 auto 5px;
+  background: url(card_control_z269c10.png) 0 -257px no-repeat;
+}
+
+.qrcode_area .code_num {
+  font-size: 15px;
+  text-align: center;
+}
+
+.supply_area {
+  position: absolute;
+  top: 11px;
+  right: 39px;
+  display: block;
+  color: #c6c5cb;
+  text-align: right;
+  height: 17px;
+}
+
+.logo_area_type {
+  margin-bottom: 7px;
+  color: #FFF;
+  color: rgba(255,255,255,0.9);
+}
+
+.logo_font_type {
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+}

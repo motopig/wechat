@@ -1,0 +1,34 @@
+{
+	"menu":{
+		"m_iot": {
+			"id": "m_iot",
+			"title":"智能硬件",
+			"icon":"fa fa-magnet",
+			"url":"angel/iot",
+			"perm_id":"",
+			"sequence":104,
+			"priority":100,
+			"pid":""
+		},
+		"m_iot_mine": {
+			"id": "m_iot_mine",
+			"title":"我的硬件",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/iot/mine",
+			"perm_id":"",
+			"sequence":101,
+			"priority":100,
+			"pid":"m_iot"
+		},
+		"m_iot_shop": {
+			"id": "m_iot_shop",
+			"title":"硬件商店",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/iot/shop",
+			"perm_id":"",
+			"sequence":102,
+			"priority":100,
+			"pid":"m_iot"
+		}
+	}
+}

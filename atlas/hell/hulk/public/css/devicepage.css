@@ -1,0 +1,141 @@
+/**
+ * 摇一摇设备页面绑定样式
+ *
+ * @category yunke
+ * @author no<no>
+ * @copyright © ECDO, Inc. All rights reserved.
+ */
+
+ .alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.left-style-info {
+  margin-left: 18px;
+}
+
+.mod-sep-20 {
+  height: 20px;
+}
+
+.ui-c-gray {
+  color: #8d8d8d;
+}
+
+.ui-mb-large {
+  margin-bottom: 15px;
+}
+
+.ui-clearfix {
+  zoom: 1;
+}
+
+.mod-weixin-share_shake {
+  width: 300px;
+  padding: 17px;
+  zoom: 1;
+  background-color: #f4f5f9;
+}
+
+.mod-weixin-share_shake-img {
+  line-height: 1;
+  font-size: 0;
+  float: left;
+  margin-right: 10px;
+}
+
+.mod-weixin-share_shake-title {
+  margin-bottom: 12px;
+}
+
+.mod-weixin-share_shake-desc {
+  color: #8d8d8d;
+}
+
+.ui-mt-small {
+  margin-top: 5px;
+}
+
+.ui-c-gray {
+  color: #8d8d8d;
+  font-size: 13px;
+}
+
+.ui-c-red {
+  color: #f84040;
+  font-size: 13px;
+}
+
+.ui-ml-large {
+  margin-left: 15px;
+}
+
+.ui-ta-c {
+  text-align: center;
+}
+
+.imageList {
+  padding-top: 10px;
+  /*padding-bottom: 10px;*/
+  position: relative;
+}
+
+.imageList .delete-news-item .close:hover {
+  background-color: rgba(127, 127, 127, 0.6);
+  color: #fff;
+}
+
+.imageList .delete-news-item .close {
+  position: absolute;
+  /*right: 0;*/
+  margin-left: 284px;
+  color: #0099ff;
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  display: block;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(239, 239, 239, 0.6);
+  opacity: 1;
+  text-shadow: none;
+}
+
+.top {
+	top: -123px;
+}
+
+.tops {
+	top: -134px;
+}
+
+.form__number_warn {
+  font-size: 13px;
+}
+
+.mod-form__label {
+  float: left;
+  width: 8em;
+  margin-top: .3em;
+  margin-right: .3em;
+  font-size: 13px;
+  position: relative;
+}
+
+.mod-form__box input {
+  width: 280px;
+  display: inline-block;
+  position: relative;
+  height: 34px;
+  vertical-align: middle;
+  font-size: 13px;
+  padding: 0 10px;
+  border: 1px solid #e7e7eb;
+  background-color: #fff;
+}

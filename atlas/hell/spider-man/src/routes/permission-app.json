@@ -1,0 +1,25 @@
+{
+	"group":{
+		"g_appcenter":{
+			"id":"g_appcenter",
+			"title":"应用管理",
+			"desc":"查看、安装应用"
+		}
+	},
+	"permission":{
+		"p_ac_view":{
+			"id":"p_ac_view",
+			"title":"应用查看",
+			"desc":"查看应用中心",
+			"gid":"g_appcenter",
+			"path":["angel/appCenter"]
+		},
+		"p_ac_edit":{
+			"id":"p_ac_edit",
+			"title":"应用安装",
+			"desc":"安装应用",
+			"gid":"g_appcenter",
+			"path":["angel/appCenter/install"]
+		}
+	}
+}

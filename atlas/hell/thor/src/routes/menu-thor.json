@@ -1,0 +1,24 @@
+{
+	"menu":{
+		"m_thor": {
+			"id": "m_thor",
+			"title":"活动",
+			"icon":"fa fa-gift",
+			"url":"###",
+			"perm_id":"",
+			"sequence":112,
+			"priority":112,
+			"pid":""
+		},
+		"m_luck_draw": {
+			"id": "m_luck_draw",
+			"title":"幸运大抽奖",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/luckdraw",
+			"perm_id":"",
+			"sequence":1,
+			"priority":1,
+			"pid":"m_thor"
+		}
+	}
+}

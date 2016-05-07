@@ -1,0 +1,24 @@
+{
+	"menu":{
+		"m_market": {
+			"id": "m_market",
+			"title":"营销",
+			"icon":"fa fa-dot-circle-o",
+			"url":"###",
+			"perm_id":"",
+			"sequence":111,
+			"priority":111,
+			"pid":""
+		},
+		"m_entityshop": {
+			"id": "m_entityshop",
+			"title":"门店",
+			"icon":"fa fa-angle-right text-xs",
+			"url":"angel/entityshop",
+			"perm_id":"",
+			"sequence":1,
+			"priority":1,
+			"pid":"m_market"
+		}
+	}
+}

@@ -1,0 +1,83 @@
+/**
+ * 微信普通图文样式
+ *
+ * @category yunke
+ * @package atlas\hell\hulk\public\css
+ * @author no<no>
+ * @copyright © ECDO, Inc. All rights reserved.
+ */
+
+.ng {
+	border-radius: 5px;
+	border: 1px solid #eee;
+	background-color: #fff;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+.ng .ng-item {
+	border-bottom: 1px solid #eee;
+	padding: 9px 9px;
+}
+
+.ng .ng-item .text {
+	display: block !important;
+	overflow: hidden !important;
+	white-space: nowrap !important;
+	text-overflow: ellipsis !important;
+	line-height: 16px;
+	min-height: 16px;
+}
+
+.ng-title {
+	margin-left: 5px;
+}
+
+.msgContainer {
+	margin-top: 20px;
+	width: 920px;
+	position: relative;
+	height: 100px;
+}
+
+.msgContainer .m_add {
+	text-align: center;
+	font-size: 40px;
+	color: #ccc;
+	line-height: 40px;
+	padding: 15px 0;
+	width: 272px;
+	border: solid 1px #ddd;
+	width: 272px;
+	display: block;
+	box-shadow: 2px 2px 2px #eee;
+	float: left;
+	/*margin-left: 20px;*/
+	border-radius: 4px;
+	visibility: visible;
+}
+
+.msgContainer .m_select {
+	text-align: center;
+	background-color: #f0f0f0;
+	line-height: 40px;
+	height: 70px;
+	padding: 15px 0;
+	width: 272px;
+	border: solid 1px #ddd;
+	display: block;
+	box-shadow: 2px 2px 2px #eee;
+	float: left;
+	/*margin-left: 20px;*/
+	border-radius: 4px;
+	visibility: visible;
+}
+
+.msgContainer .m_select a.multi {
+	padding-right: 5px;
+}
+
+.msgContainer .m_select a.multis {
+	border-left: solid 1px #ccc;
+	padding-left: 10px;
+}
